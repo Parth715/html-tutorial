@@ -23,7 +23,7 @@ const getAllUsers = () => {
         tr += `<td>${i.email}</td>`;
         tr += `<td>${displayBoolean(i.isReviewer)}</td>`;
         tr += `<td>${displayBoolean(i.isAdmin)}</td>`;
-        tr += `<td><a href="user-detail.html?id=${i.id}"> Detail</a> | <a href="user-edit.html?id=${i.id}"> Edit</a></td>`
+        tr += `<td><a href="user-detail.html?id=${i.id}"> Details</a> | <a href="user-edit.html?id=${i.id}"> Edit</a></td>`
         tbody.innerHTML += tr;
     }
 }
